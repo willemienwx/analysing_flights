@@ -1,0 +1,23 @@
+---
+title: "Learning R - Analysing Flights"
+author: "Willemien"
+date: "6 - 8 November 2019"
+output: html_notebook
+---
+
+Task:
+- make (public) github repository called "Analysing Flights"
+- add a Rmd file including R code to: 
+    - load the nycflights13 package
+    - clean up the feature columns ready for modelling
+    - use functionality from a tidymodels package to split the data into a traning sample and a test sample
+    
+The aim is to ensure that the student is ready for building models by demonstrating she/he can use techniques and code learned in Book 1 and Book 2 and other tutorials.
+
+```{r loading required libraries}
+library(tidyverse)
+library(purrr)
+library(tidymodels)
+library(nycflights13)
+```
+
