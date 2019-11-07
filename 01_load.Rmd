@@ -16,8 +16,19 @@ The aim is to ensure that the student is ready for building models by demonstrat
 
 ```{r loading required libraries}
 library(tidyverse)
+library(dplyr)
 library(purrr)
 library(tidymodels)
 library(nycflights13)
+```
+
+Need to clean up the feature columns... but first have to find the column called feature. You wouldn't believe how long it took me to figure out that by loading the library nycflights13 it also straight away created the dataframes.... I thought I had to load these separately. But I am a bit puzzled as to why thes do not show up in the Environment tab? Anyway it's all there. Below looking at the head of each df and then hoping that "feature" will be in one of the columns. I suspect that this is not the case....
+
+```{r}
+head(airlines)
+head(airports)
+head(flights)
+head(planes)
+head(weather)
 ```
 
