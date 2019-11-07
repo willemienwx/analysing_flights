@@ -31,4 +31,8 @@ head(flights)
 head(planes)
 head(weather)
 ```
+```{r}
+help(package = "nycflights13")
+help(package = "tidymodels")
+```
 
